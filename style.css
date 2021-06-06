@@ -2,6 +2,7 @@
   box-sizing: border-box;
 }
 
+/*for width allocated (left,right) */
 :root {
   --width-break: 600px;
 }
