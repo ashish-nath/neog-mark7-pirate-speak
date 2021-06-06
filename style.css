@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --width-break: 600px;
+}
+body {
+  margin: 0;
+  font-family: "Kalam", cursive, Impact, Haettenschweiler, "Arial Narrow Bold",
+    sans-serif;
+  /* color: red; */
+}
+
+nav {
+  color: red;
+  background-color: #47006b;
+  text-align: center;
+}
+
+main {
+  margin: 0;
+  font-family: "Kalam", cursive, Impact, Haettenschweiler, "Arial Narrow Bold";
+  max-width: var(--width-break);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+textarea {
+  width: 80%;
+  height: 10vh;
+  display: block;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+button {
+  background-color: #47006b;
+  border: none;
+  margin: 1rem 0rem;
+  padding: 1rem 2rem;
+  font-size: large;
+  color: red;
+}
+
+#output {
+  border: 1px solid black;
+  height: 10vh;
+  width: 80%;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+footer {
+  color: red;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+  background-color: #47006b;
+  text-align: center;
+}
